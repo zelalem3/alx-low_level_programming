@@ -8,22 +8,41 @@
 */
 int largest_number(int i, int j, int k)
 {
-int largest;
-if (i > j && i > k)
-{
-largest = i;
-}
-else if (i > j && k > i)
-{
-largest = k;
-}
-else if (j > k)
-{
-largest = j;
-}
-else
-{
-largest = k;
-}
-return (largest);
-}
+
+	int largest;
+
+	if (i > j && i > k)
+
+	{
+
+		largest = i;
+
+	}
+
+	else if (i > j && k > i)
+
+	{
+
+		largest = k;
+
+	}
+
+	else if (j > k)
+
+	{
+
+		largest = j;
+
+	}
+
+	else
+
+	{
+
+		largest = k;
+
+	}
+
+	return (largest);
+
+	}
